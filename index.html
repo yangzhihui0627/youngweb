@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人博客</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+        
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3498db;
+        }
+        
+        nav a:hover {
+            color: #2980b9;
+        }
+        
+        article {
+            background: white;
+            padding: 30px;
+            margin: 30px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        article h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        
+        .post-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav a {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的个人博客</h1>
+        <p class="subtitle">分享我的思考与生活</p>
+    </header>
+    
+    <nav>
+        <a href="#">首页</a>
+        <a href="#">关于我</a>
+        <a href="#">文章分类</a>
+        <a href="#">联系我</a>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>我的第一篇文章</h2>
+            <div class="post-meta">发布于 2023年10月15日 | 分类: <a href="#">生活随笔</a></div>
+            <p>这是我的第一篇博客文章。在这里，我将分享我的想法、经验和学习心得...</p>
+            <p>博客是一个很好的记录和分享平台，我希望通过这个空间与更多人交流。</p>
+            <a href="#">阅读更多 &raquo;</a>
+        </article>
+        
+        <article>
+            <h2>技术学习笔记</h2>
+            <div class="post-meta">发布于 2023年10月10日 | 分类: <a href="#">技术</a></div>
+            <p>最近在学习前端开发，记录一些HTML和CSS的学习心得...</p>
+            <p>响应式设计是现代网页开发的重要部分，它能让网站在不同设备上都有良好的显示效果。</p>
+            <a href="#">阅读更多 &raquo;</a>
+        </article>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 我的个人博客. 保留所有权利.</p>
+        <p>Powered by HTML & CSS</p>
+    </footer>
+</body>
+</html>
